@@ -1,0 +1,467 @@
+:root {
+  --blue: #2886EB;
+  --white: #fff;
+  --black: #222;
+  --gray: #767676;
+  --white-gray: #0000000A;
+  --circle-gray: #E8E8E8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p, span, h1, b, button {
+  margin: 0px;
+  padding: 0px;
+  font-family: "SF Pro Display", sans-serif;
+  color: var(--black);
+}
+
+p {
+  font-size: 16px;
+}
+
+div {
+  display: flex;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  min-width: 1308px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+}
+.main .container-header {
+  width: 1200px;
+  height: 110px;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .container-header .header-text {
+  width: 202px;
+}
+.main .container-header .header-text .blue-span {
+  color: var(--blue);
+}
+.main .container-header .container-menu {
+  width: 604px;
+  justify-content: space-between;
+}
+.main .container-header .head-button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 32px;
+  width: 202px;
+  background-color: var(--blue);
+  color: var(--white);
+  cursor: pointer;
+}
+.main .container-main {
+  width: 1200px;
+}
+.main .container-main .text-container {
+  padding: 50px 0px;
+  width: 752px;
+  flex-direction: column;
+}
+.main .container-main .text-container .svg-big-text {
+  font-size: 68px;
+  margin-bottom: 50px;
+  font-weight: 500;
+  color: var(--black);
+}
+.main .container-main .text-container .svg-big-text .svg-big-text-blue {
+  color: var(--blue);
+}
+.main .container-main .text-container .svg-text-description {
+  width: 487px;
+  color: var(--gray);
+  margin-bottom: 55px;
+}
+.main .container-main .text-container .more-info {
+  background: none;
+  border: 1.5px solid var(--blue);
+  border-radius: 10px;
+  padding: 0px;
+  width: 169px;
+  height: 32px;
+}
+.main .slider {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main .slider .left-arrow {
+  cursor: pointer;
+}
+.main .slider .container-arrow {
+  align-items: center;
+  justify-content: space-between;
+}
+.main .slider .container-arrow .learning-to-verstka {
+  background-color: var(--white-gray);
+  border-radius: 40px;
+  width: 1200px;
+  margin: 0px 10px;
+  padding: 55px 55px 0px 55px;
+}
+.main .slider .container-arrow .learning-to-verstka .container-text {
+  width: 422px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 60px;
+}
+.main .slider .container-arrow .learning-to-verstka .container-text .learn-verstka {
+  font-size: 44px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.main .slider .container-arrow .learning-to-verstka .container-text .learn-verstka-description {
+  color: var(--gray);
+  font-size: 22px;
+  margin-bottom: 60px;
+}
+.main .slider .container-arrow .learning-to-verstka .container-text .choose-a-course {
+  background: var(--blue);
+  border: none;
+  padding: 10px 32px;
+  border-radius: 10px;
+  color: var(--white);
+  margin-bottom: 60px;
+}
+.main .slider .container-arrow .right-arrow {
+  rotate: 180deg;
+  cursor: pointer;
+}
+.main .slider .slider-circle {
+  justify-content: space-between;
+  width: 106px;
+  align-items: center;
+  margin-top: 15px;
+}
+.main .slider .slider-circle .blue-circle {
+  width: 30px;
+  height: 9px;
+  border-radius: 8px;
+  background-color: var(--blue);
+}
+.main .slider .slider-circle .circle {
+  width: 9px;
+  height: 9px;
+  background-color: var(--circle-gray);
+  border-radius: 8px;
+}
+.main .advantages {
+  width: 1200px;
+  gap: 50px;
+  flex-direction: column;
+}
+.main .advantages .block-text {
+  width: 634px;
+  margin: 0px 10px;
+  gap: 25px;
+  flex-direction: column;
+}
+.main .advantages .block-text .what-teach {
+  color: var(--black);
+  font-size: 32px;
+  font-weight: 600;
+}
+.main .advantages .block-text .teach-description {
+  font-size: 16px;
+  font-weight: 400;
+}
+.main .advantages .blocks {
+  gap: 15px;
+  flex-direction: column;
+}
+.main .advantages .blocks .blocks-advantages {
+  gap: 15px;
+}
+.main .advantages .blocks .block {
+  width: 390px;
+  height: 260px;
+  padding: 25px 25px 0px 25px;
+  background-color: var(--white-gray);
+  border-radius: 20px;
+  flex-direction: column;
+}
+.main .advantages .blocks .block .blue-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: var(--blue);
+  font-size: 15px;
+  color: var(--white);
+  border-radius: 24px;
+  margin-bottom: 40px;
+}
+.main .advantages .blocks .block .text-advantages {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.main .advantages .blocks .block .description-advantages {
+  font-size: 16px;
+  color: var(--gray);
+  font-weight: 400;
+}
+.main .success {
+  width: 1200px;
+  background-color: var(--white-gray);
+  padding: 0px 55px;
+  gap: 10px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .success .success-text {
+  width: 725px;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 600;
+}
+.main .success .success-text .gray-text {
+  color: var(--gray);
+  margin-bottom: 10px;
+}
+.main .success .success-text .heading-text {
+  color: var(--black);
+  margin-bottom: 29px;
+}
+.main .success .success-text .text-desc {
+  font-size: 16px;
+  font-weight: 400;
+}
+.main .how-learn {
+  width: 1200px;
+  flex-direction: column;
+}
+.main .how-learn .head-text {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0px 10px 50px 0px;
+}
+.main .how-learn .video-less {
+  width: 1200px;
+  background-image: url(../img/a278e3d7803d4fb7d5cb032041748d33.png);
+  height: 265.75px;
+  border-radius: 20px;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.main .how-learn .video-less .pause {
+  width: 64.75px;
+  height: 64.75px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 68px;
+  background-color: var(--white);
+}
+.main .how-learn .plan {
+  gap: 55px;
+}
+.main .how-learn .plan .point-plan {
+  width: 258.75px;
+  flex-direction: column;
+}
+.main .how-learn .plan .point-plan .num-plan {
+  color: var(--blue);
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: var(--black) solid 2px;
+}
+.main .how-learn .plan .point-plan .head-text {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 15px;
+}
+.main .how-learn .plan .point-plan .desc-text {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 120%;
+}
+.main .sign-up {
+  width: 1200px;
+  height: 275px;
+  align-items: center;
+  justify-content: center;
+}
+.main .sign-up .blue-sign {
+  width: 600px;
+  background-color: var(--blue);
+  border-radius: 20px;
+  padding: 40px;
+  height: 275px;
+  flex-direction: column;
+  background-image: url(../img/Star\ 2.svg);
+  background-repeat: no-repeat;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: bottom left;
+}
+.main .sign-up .blue-sign .white-text {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 20px;
+}
+.main .sign-up .blue-sign .gray-text {
+  color: #16395F;
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+.main .sign-up .blue-sign .sign-up-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 32px;
+  width: 205px;
+  background-color: var(--white);
+}
+.main .sign-up .gray-sign {
+  width: 600px;
+  height: 214px;
+  padding: 40px;
+  background-color: var(--white-gray);
+  flex-direction: column;
+  border-radius: 0px 25px 25px 0px;
+}
+.main .sign-up .gray-sign .black-text {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.main .sign-up .gray-sign .desk-sign {
+  color: var(--black);
+  font-size: 16px;
+  font-style: normal;
+}
+.main .block-review {
+  flex-direction: column;
+  width: 1200px;
+}
+.main .block-review .head-stud-text {
+  margin: 0px 10px 50px 0px;
+  font-size: 32px;
+  font-weight: 600;
+}
+.main .block-review .reviews {
+  width: 1200px;
+  gap: 15px;
+}
+.main .block-review .reviews .container-review {
+  width: 288.75px;
+  flex-direction: column;
+  gap: 15px;
+}
+.main .block-review .reviews .container-review .review {
+  background-color: var(--white-gray);
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 20px;
+  gap: 20px;
+}
+.main .block-review .reviews .container-review .review .user {
+  gap: 13px;
+}
+.main .block-review .reviews .container-review .review .user .user-info {
+  flex-direction: column;
+}
+.main .block-review .reviews .container-review .review .user .user-info .name {
+  font-size: 18px;
+  font-weight: 600;
+}
+.main .block-review .reviews .container-review .review .user .user-info .user-data {
+  color: var(--gray);
+  font-size: 16px;
+}
+.main .block-review .reviews .container-review .review .img-bg {
+  width: 100%;
+  height: 393px;
+  background-image: url(../img/2d53793f52bb015da6083877b97d6c62.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.main .block-review .reviews .container-review .review .img-bg .pause {
+  width: 64.75px;
+  height: 64.75px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 68px;
+  background-color: var(--white);
+}
+.main .block-review .reviews .container-review .review .contant-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.main .futter {
+  width: 1200px;
+  padding: 75px 0px;
+}
+.main .futter .container-first-fut-text {
+  flex-direction: column;
+  width: 250px;
+  gap: 10px;
+}
+.main .futter .container-first-fut-text .main-fut-text {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+}
+.main .futter .container-first-fut-text .main-fut-text .blue-futter {
+  color: var(--blue);
+}
+.main .futter .container-first-fut-text .second-fut-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+.main .futter .container-links {
+  width: 100%;
+  justify-content: space-between;
+}
+.main .futter .container-links .block-links {
+  flex-direction: column;
+  gap: 10px;
+}
+.main .futter .container-links .block-links .blue-text-fut-link {
+  color: var(--blue);
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+}
+.main .futter .container-links .block-links .text-links {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */
